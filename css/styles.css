@@ -1,0 +1,28 @@
+/**
+ * file: styles.css
+ **/
+
+ #red {
+    position: relative;
+    width: 111px;
+    height: 111px;
+    background-color: greenyellow;
+    animation-name: Evaanimate;
+    animation-duration: 4s;
+ }
+
+ @keyframes Evaanimate {
+    from {
+        
+    top: 100px;
+    left: 0px;
+    background-color: red;
+ }
+to {
+    top: 600px;
+    left: 1234px;
+    background-color: yellow;
+    width: 800px;
+}
+
+}
